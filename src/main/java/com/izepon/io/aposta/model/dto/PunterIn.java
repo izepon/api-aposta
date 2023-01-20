@@ -9,7 +9,4 @@ public class PunterIn {
     private String name;
     private String mail;
 
-    public Punter toConvert() {
-        return new Punter(null, name, mail);
-    }
 }
