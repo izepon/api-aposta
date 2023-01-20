@@ -1,5 +1,6 @@
-package com.izepon.io.aposta;
+package com.izepon.io.aposta.repository;
 
+import com.izepon.io.aposta.model.Punter;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

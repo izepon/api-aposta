@@ -1,10 +1,14 @@
-package com.izepon.io.aposta;
+package com.izepon.io.aposta.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
 
+@AllArgsConstructor
+@Getter
 @Entity
 public class Punter {
 
@@ -13,16 +17,4 @@ public class Punter {
     private String name;
     private String mail;
 
-    public String getName() {
-        return name;
-    }
-
-    public String getMail() {
-        return mail;
-    }
-
-    public Punter(String name, String mail) {
-        this.name = name;
-        this.mail = mail;
-    }
 }
